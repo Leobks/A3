@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+}
+h2{
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    display: block;
+}
+
+body{
+font-family: 'Oswald', Helvetica, sans-serif;
+    background-image: url('livro.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+#menu-home{
+    list-style: none;
+    padding: 0;
+    background-color: #0021a2;
+}
+
+#menu-home li{
+    display: inline;
+    left: 0;
+}
+#menu-home li ul{
+    display: none;
+    position: absolute;
+    
+}
+#menu-home li:hover ul{
+    display: block;
+
+}
+#menu-home li ul li{
+    background-color: #0021a2;
+    text-align: center;
+    display: block;
+}
+#menu-home li a{
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: backgroud .4s;
+    
+}
+
+#menu-home li a:hover{
+    color: #0df1de;
+    background-color: black;
+}
+#menu-home li:last-child a {
+    float: right;
+}
+
+.main{
+    text-align: center;
+    color: black;
+}

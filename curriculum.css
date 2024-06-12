@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 15px;
+    text-align: center;
+    color:black;
+}
+h2{
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    display: block;
+}
+        body {
+            font-family: Oswald, sans-serif;
+            margin: 0;
+            padding: 0;
+            }
+
+            #menu-home{
+                list-style: none;
+                padding: 0;
+                background-color: #0021a2;
+            }
+            
+            #menu-home li{
+                display: inline;
+                left: 0;
+            }
+            #menu-home li ul{
+                display: none;
+                position: absolute;
+                
+            }
+            #menu-home li:hover ul{
+                display: block;
+            
+            }
+            #menu-home li ul li{
+                background-color: #0021a2;
+                text-align: center;
+                display: block;
+            }
+            #menu-home li a{
+                color: #fff;
+                padding: 10px;
+                display: inline-block;
+                text-decoration: none;
+                transition: backgroud .4s;
+                
+            }
+            
+            #menu-home li a:hover{
+                color: #0df1de;
+                background-color: black;
+            }
+            #menu-home li:last-child a {
+                float: right;
+            }
+            
+            
+        #header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #profile-image {
+            max-width: 300px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #main-content {
+            padding: 20px;
+            color: rgb(5, 5, 5);
+            text-align: center;
+        }
+    
+                
+        
